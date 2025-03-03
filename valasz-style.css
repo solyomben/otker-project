@@ -28,7 +28,7 @@ section {
 
 .pipa{
     display: flex;
-    justify-content: center; /* Vízszintesen középre */
-    align-items: center; /* Függőlegesen középre (ha kell) */
+    justify-content: center; 
+    align-items: center;
     height: 100vh;  
 }
