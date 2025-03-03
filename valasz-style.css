@@ -18,4 +18,17 @@ font-size: 40px;
 text-decoration: underline;
 
 }
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #ddd0b3b6;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
 
+.pipa{
+    display: flex;
+    justify-content: center; /* Vízszintesen középre */
+    align-items: center; /* Függőlegesen középre (ha kell) */
+    height: 100vh;  
+}
