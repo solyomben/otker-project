@@ -1,5 +1,4 @@
 body {
-    font-family: 'Georgia', serif;
     line-height: 1.8;
     margin: 0;
     padding: 20px;
@@ -14,14 +13,25 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  
 }
 
+
+
 header {
-    background: #8b0000;
+    background-image: url(./img/Old-world-map.jpg);
+    
     color: white;
     text-align: center;
     padding: 15px;
     border-radius: 10px 10px 0 0;
+}
+
+h1{
+
+background-color: rgba(255 , 255, 255, 0.6);
+
+
 }
 
 h1, h2 {
@@ -48,10 +58,30 @@ ul li::before {
     margin-right: 10px;
 }
 
-.questions {
+.kerdesek {
     background: #ffe4b5;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.kartya {
+    text-align: center;
+   background: #fff8e1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.kartya:hover {
+    transform: scale(1.1);
+}
+.kartya img {
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+}
+.kartya li {
+    list-style: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
