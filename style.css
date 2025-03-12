@@ -59,7 +59,7 @@ ul li::before {
 }
 
 .kerdesek {
-    background: #ffe4b5;
+   background-image: url(.//img/regi\ papir.jpg);
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
